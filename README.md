@@ -12,14 +12,14 @@ doc:https://web3js.readthedocs.io/en/v1.2.1/
 ##### 🍩 npm of Decode Data(input of transaction)? https://github.com/cloud9020locki/ethereum-input-data-decoder <br>
 
 ### 🍩 How to inspect?
-1. go to https://infura.io/ and create a new account 
-2. create a new project for ethereum
-3. clone this repository on your desktop
-4. open with visual code then go to inspect.js and find "project_id" and "EOA account", then past project_id from infura and your EOA account to them.
-5. open cmd
-6. write "node inspect.js"
-7. this script collect all transaction on ropsten txpool
-8. see script below:
+1. go to https://infura.io/ and create a new account <br>
+2. create a new project for ethereum <br>
+3. clone this repository on your desktop <br>
+4. open with visual code then go to inspect.js and find "project_id" and "EOA account", then past project_id from infura and your EOA account to them. <br>
+5. open cmd <br>
+6. write "node inspect.js" <br>
+7. this script collect all transaction on ropsten txpool <br>
+8. see script below: <br>
 ```
 {
   blockHash: '0x195449080bf9081652248e15e220d5060f0ea54ec9f0df760f1816c613bf84a1',
@@ -39,14 +39,14 @@ doc:https://web3js.readthedocs.io/en/v1.2.1/
   value: '0'
 }
 ```
-9.that script was made by console.log(tx) from inspect.js that has a "input" field, "input" means data of transaction, and it has a "to". "to" is refer to smart contract address.
+9.that script was made by console.log(tx) from inspect.js that has a "input" field, "input" means data of transaction, and it has a "to". "to" is refer to smart contract address. <br>
 tip: if input was "0x0" then "to" is refer to EOA.
-10.copy the "to" field then past it in: https://ropsten.etherscan.io/address/to#code (instead of "to", do not remove "#code" from uri)
-11.copy that uri on your chrome
-12.copy the contract ABI (application binary interface)
-13.goto https://lab.miguelmota.com/ethereum-input-data-decoder/example/ then past ABI and input that available on script.
-14.press decode
-15.you see this as follow:
+10.copy the "to" field then past it in: https://ropsten.etherscan.io/address/to#code (instead of "to", do not remove "#code" from uri) <br>
+11.copy that uri on your chrome <br>
+12.copy the contract ABI (application binary interface) <br>
+13.goto https://lab.miguelmota.com/ethereum-input-data-decoder/example/ then past ABI and input that available on script. <br>
+14.press decode <br>
+15.you see this as follow: <br>
 ```
 {
   "method": "swapExactTokensForTokens",
@@ -76,5 +76,5 @@ tip: if input was "0x0" then "to" is refer to EOA.
   ]
 }
 ```
-🍕 congratulations (you inspect transaction on ropsten with your knowledge, this is usefull when you want to inspect core functionality of protocol!)
+🍕 congratulations (you inspect transaction on ropsten with your knowledge, this is usefull when you want to inspect core functionality of protocol!) <br>
 
