@@ -1,4 +1,4 @@
-## 🍩 eth-transaction-checker (what is front Running on Ethereum is simple Step! and How to do that?)
+## 🍩 what is front Running on Ethereum is simple Step! and How to do that?
 Node.js programs for monitoring transactions to Ethereum addresses
 
 #### 🍩 Web3.js Tutorial - Check all transactions to an Ethereum address in Node.js (in real-time) <br>
