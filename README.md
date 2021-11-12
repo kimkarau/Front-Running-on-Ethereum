@@ -44,9 +44,9 @@ doc:https://web3js.readthedocs.io/en/v1.2.1/
 #### tip: if input was "0x0" then "to" is refer to EOA. <br>
 10.copy the "to" field then past it in: https://ropsten.etherscan.io/address/to#code (instead of "to", do not remove "#code" from uri) <br>
 11.copy that uri on your chrome <br>
-12.copy the contract ABI (application binary interface) <br>
-13.goto https://lab.miguelmota.com/ethereum-input-data-decoder/example/ then past ABI and input that available on script. <br>
-14.press decode <br>
+12.copy the contract ABI (Application Binary Interface) <br>
+13.go to https://lab.miguelmota.com/ethereum-input-data-decoder/example/ then past ABI and input that available on script. <br>
+14.press Decode <br>
 15.you see this as follow: <br>
 ```
 {
