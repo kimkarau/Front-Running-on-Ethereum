@@ -94,4 +94,4 @@ The best fix for the ERC20 race condition is to add a field to the inputs of app
 
 #### reference: <br>
 https://swcregistry.io/docs/SWC-114#eth-tx-order-dependence-minimalsol <br>
-
+https://medium.com/coinmonks/solidity-transaction-ordering-attacks-1193a014884e <br>
