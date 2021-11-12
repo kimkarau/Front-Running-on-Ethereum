@@ -14,6 +14,14 @@ doc:https://web3js.readthedocs.io/en/v1.2.1/
 🍩 npm of Decode Data(input of transaction)? https://github.com/cloud9020locki/ethereum-input-data-decoder <br>
 
 🍩 How to inspect?
+1. go to https://infura.io/ and create a new account 
+2. create a new project for ethereum
+3. clone this repository on your desktop
+4. open with visual code then go to inspect.js and find "project_id" and "EOA account", then past project_id from infura and your EOA account to them.
+5. open cmd
+6. write "node inspect.js"
+7. this script collect all transaction on ropsten txpool
+8. see script below:
 ```
 {
   blockHash: '0x195449080bf9081652248e15e220d5060f0ea54ec9f0df760f1816c613bf84a1',
@@ -33,4 +41,5 @@ doc:https://web3js.readthedocs.io/en/v1.2.1/
   value: '0'
 }
 ```
-I'm running https://gist.github.com/jonasbostoen/723a41383fd901a3dec6030d2c6a929f from Infura with project_ID and account address. 
+9.this script was made by console.log(tx) from inspect.js that has a "input" field, "input" means data of transaction, and it has a "to", "to" is refer to smart contract address.
+tip: if input was "0x0" then "to" is refer to EOA.
