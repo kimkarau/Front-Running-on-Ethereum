@@ -40,7 +40,7 @@ doc:https://web3js.readthedocs.io/en/v1.2.1/
 }
 ```
 9.that script was made by console.log(tx) from inspect.js that has a "input" field, "input" means data of transaction, and it has a "to". "to" is refer to smart contract address. <br>
-tip: if input was "0x0" then "to" is refer to EOA.
+#### tip: if input was "0x0" then "to" is refer to EOA. <br>
 10.copy the "to" field then past it in: https://ropsten.etherscan.io/address/to#code (instead of "to", do not remove "#code" from uri) <br>
 11.copy that uri on your chrome <br>
 12.copy the contract ABI (application binary interface) <br>
