@@ -41,5 +41,7 @@ doc:https://web3js.readthedocs.io/en/v1.2.1/
   value: '0'
 }
 ```
-9.this script was made by console.log(tx) from inspect.js that has a "input" field, "input" means data of transaction, and it has a "to", "to" is refer to smart contract address.
+9.that script was made by console.log(tx) from inspect.js that has a "input" field, "input" means data of transaction, and it has a "to". "to" is refer to smart contract address.
 tip: if input was "0x0" then "to" is refer to EOA.
+10.copy the "to" field then past it in: https://ropsten.etherscan.io/address/to#code (instead of to, do not remove #code)
+11.
