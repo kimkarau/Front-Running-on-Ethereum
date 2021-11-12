@@ -5,10 +5,8 @@ Node.js programs for monitoring transactions to Ethereum addresses
 youtube link:https://www.youtube.com/watch?v=GSLEz-XxGY8
 
 #### 🍩 More info at:
-https://chainstack.com/exploring-the-methods-of-looking-into-ethereums-transaction-pool/
-
+https://chainstack.com/exploring-the-methods-of-looking-into-ethereums-transaction-pool/ <br>
 doc:https://web3js.readthedocs.io/en/v1.2.1/
-
 
 ##### 🍩 How to Decode Data(input of transaction)? https://lab.miguelmota.com/ethereum-input-data-decoder/example/ <br>
 ##### 🍩 npm of Decode Data(input of transaction)? https://github.com/cloud9020locki/ethereum-input-data-decoder <br>
