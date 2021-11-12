@@ -6,3 +6,5 @@ youtube link:https://www.youtube.com/watch?v=GSLEz-XxGY8
 
 More info at:
 https://chainstack.com/exploring-the-methods-of-looking-into-ethereums-transaction-pool/
+
+doc:https://web3js.readthedocs.io/en/v1.2.1/
