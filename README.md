@@ -11,6 +11,6 @@ doc:https://web3js.readthedocs.io/en/v1.2.1/
 
 
 🍩 How to Decode Data(input of transaction)? https://lab.miguelmota.com/ethereum-input-data-decoder/example/ <br>
-🍩 
-🍩 
+🍩 npm of Decode Data(input of transaction)? https://github.com/cloud9020locki/ethereum-input-data-decoder <br>
+🍩 <br>
 
