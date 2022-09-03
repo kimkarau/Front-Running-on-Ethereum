@@ -12,4 +12,4 @@ setInterval(() => {
     checkLastBlock()
 }, 2000)
 
-watchTransactions()
+// watchTransactions()

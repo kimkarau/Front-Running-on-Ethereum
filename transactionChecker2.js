@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = ({ web3, web3http }) => {
-    const account = 'YOUR_ETH_ADDRESS'.toLowerCase();
+    const account = '0xB8c84184668c22BDe653Fd2dCb7bF1205a71c59d'.toLowerCase();
     const subscription = web3.eth.subscribe('pendingTransactions', (err, res) => {
         if (err) console.error(err);
     });

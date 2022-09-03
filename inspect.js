@@ -7,8 +7,8 @@ class TransactionChecker {
     subscription;
 
     constructor(account) {
-        this.web3ws = new Web3(new Web3.providers.WebsocketProvider('wss://ropsten.infura.io/ws/v3/project_id'));
-        this.web3 = new Web3(new Web3.providers.HttpProvider('https://ropsten.infura.io/v3/project_id'));
+        this.web3ws = new Web3(new Web3.providers.WebsocketProvider('wss://rpc.ankr.com/bsc_testnet_chapel/ws/8ac99bcdf3c33ad00ec3cc515b72c2088529c7782f67cd1d11d3c8bc09dba78b'));
+        this.web3 = new Web3(new Web3.providers.HttpProvider('https://rpc.ankr.com/bsc_testnet_chapel/8ac99bcdf3c33ad00ec3cc515b72c2088529c7782f67cd1d11d3c8bc09dba78b'));
         this.account = account.toLowerCase();
     }
 
